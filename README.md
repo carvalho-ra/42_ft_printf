@@ -1,16 +1,25 @@
-42cursus
+#ft_printf
 
-project_02
+#💡 About the project
 
-ft_printf
+The ft_printf project entails recreating the functionality of the printf() function in C, offering a valuable opportunity to explore fundamental concepts and the internal structure of programming language libraries, and to gain practical experience with variable arguments and string formatting.
 
-💡 About the project
+#🛠️ Usage
 
-    This project is pretty straight forward. You will recode printf. You will mainly learn how to use variadic arguments.
+make
 
-This project consists of coding a library that contains a simplified version (more
-information below) of the printf function.
+```
+#include <stdio.h>
+#include "ft_printf.h" // Assuming ft_printf.h is the header file for your custom printf function
 
-For more detailed information, look at the subject of this project.
-🛠️ Usage
-Requirements
+int main() {
+    int num = 42;
+    char *str = "Hello, world!";
+    
+    // Using ft_printf to print an integer and a string
+    ft_printf("This is a number: %d\n", num);
+    ft_printf("This is a string: %s\n", str);
+    
+    return 0;
+}
+```
