@@ -1,10 +1,10 @@
 # ft_printf
 
-# 💡 About the project
+## 💡 About the project
 
 The ft_printf project entails recreating the functionality of the printf() function in C, offering a valuable opportunity to explore fundamental concepts and the internal structure of programming language libraries, and to gain practical experience with variable arguments and string formatting.
 
-# 🛠️ Usage
+## 🛠️ Usage
 
 1. compile the project using the provided Makefile: ```make```
     This command will generate the `libftprintf.a` library, which contains the ft_printf function implementation.
@@ -31,5 +31,5 @@ int main() {
 
 3. compile main file with `gcc`, linking it with `libftprintf.a`with ```gcc main.c libftprintf.a && ./a.out```
 
-# 📋 Results
+## 📋 Results
 ![Captura de tela de 2024-02-18 18-41-20](https://github.com/carvalho-ra/ft_printf/assets/66538173/a5dbd222-07a1-486b-a350-90ba439a2c77)
