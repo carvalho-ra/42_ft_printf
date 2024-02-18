@@ -6,20 +6,30 @@ The ft_printf project entails recreating the functionality of the printf() funct
 
 #🛠️ Usage
 
-make
+compile with ```make```
+This command will generate the `libftprintf.a` library, which contains the ft_printf function implementation.
+
+use the following code in a main file
 
 ```C
 #include <stdio.h>
-#include "ft_printf.h" // Assuming ft_printf.h is the header file for your custom printf function
+#include "ft_printf.h"
 
 int main() {
     int num = 42;
     char *str = "Hello, world!";
     
     // Using ft_printf to print an integer and a string
-    ft_printf("This is a number: %d\n", num);
-    ft_printf("This is a string: %s\n", str);
+    ft_printf("ft_printf: %d\n", num);
+    printf("printf: %d\n", num);
+    ft_printf("ft_printf: %s\n", str);
+    printf("printf: %s\n", str);
     
     return 0;
 }
 ```
+
+compile your main file with `gcc`, linking it with `libftprintf.a`with ```gcc main.c libftprintf.a && ./a.out```
+
+#📋 Results
+![Captura de tela de 2024-02-18 18-41-20](https://github.com/carvalho-ra/ft_printf/assets/66538173/a5dbd222-07a1-486b-a350-90ba439a2c77)
