@@ -2,7 +2,7 @@
 
 ### 💡 About the project
 
-The ft_printf project entails recreating the functionality of the printf() function in C, offering a valuable opportunity to explore fundamental concepts and the internal structure of programming language libraries, and to gain practical experience with variable arguments and string formatting.
+The ft_printf project aims to recreate the functionality of the printf() function in C. the functionality of the printf() function in C, offering a valuable opportunity to explore fundamental concepts and the internal structure of programming language libraries, and to gain practical experience with variable arguments and string formatting.
 
 ### 🛠️ Usage
 
