@@ -8,7 +8,7 @@ The ft_printf project entails recreating the functionality of the printf() funct
 
 make
 
-```
+```C
 #include <stdio.h>
 #include "ft_printf.h" // Assuming ft_printf.h is the header file for your custom printf function
 
