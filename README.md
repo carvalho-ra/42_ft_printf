@@ -32,4 +32,4 @@ int main() {
 3. compile main file with gcc, linking it with libftprintf.a with ```gcc main.c libftprintf.a && ./a.out```
 
 ### 📋 Results
-![ft_printf.png](ft_printf.png)
+![ft_printf_img.png](ft_printf_img.png)
